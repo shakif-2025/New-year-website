@@ -57,21 +57,17 @@
 
 .categories h2 {
   margin-bottom: 40px;
-
-  /* Font: Inter */
   font-weight: 700;
   font-size: 88px;
 }
 
 .categories p {
-  /* Font: Inter */
   font-weight: 500;
   font-size: 24px;
   margin-bottom: 16px;
 }
 
 .categories h3 {
-  /* Font: Inter */
   font-weight: 700;
   font-size: 48px;
   margin-bottom: 45px;
@@ -80,8 +76,6 @@
 /* Midnight party styles */
 .midnight-party {
   position: relative;
-
-  /* background: url("../assets/images/Vectorrr.png"); */
 }
 .midnight-party .bg-img {
   border-radius: 16px;
@@ -120,5 +114,101 @@
   font-weight: 700;
   font-size: 20px;
   margin-top: 48px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
+
+  border: 1px solid mediumseagreen;
+  padding: 10px 30px;
+}
+
+.midnight-party-content .btn:hover {
+  background-color: aqua;
+}
+
+/* Place-date-time styles  */
+.Place-date-time {
+  text-align: center;
+  padding: 100px 300px 200px;
+  margin-top: 120px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.Place-date-time p,
+span {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.Place-date-time span {
+  color: #ff0000;
+}
+
+.Place-date-time .btn {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: rgba(255, 0, 0, 1);
+
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Offer-year styles */
+
+.offer-year {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.offer-year-content h5 {
+  color: rgba(255, 0, 0, 1);
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-year-content h3 {
+  color: rgba(7, 2, 17, 1);
+
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.offer-year-content p {
+  color: rgba(7, 2, 17, 0.6);
+  width: 400px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.offer-year-image img {
+  box-sizing: border-box;
+  border: 15px solid rgba(255, 0, 0, 1);
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.offer-year-content-2 h5 {
+  color: rgba(255, 0, 0, 1);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.offer-year-content-2 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -43px;
+  width: 300px;
 }
