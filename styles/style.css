@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* google font styles */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
@@ -35,6 +36,13 @@ body {
 /* banner styles  */
 .banner {
   position: relative;
+  /* background-image: url("../assets/images/Banner\ Image.png"); */
+  /* border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(7, 2, 17, 1),
+    rgba(7, 2, 17, 0) 100%
+  ); */
 }
 
 .banner-content {
@@ -263,7 +271,6 @@ span {
 
 .gift-box-discount {
   position: absolute;
-
   top: -390px;
 }
 
@@ -404,9 +411,4 @@ footer {
 }
 .contact p {
   line-height: 150%;
-}
-
-.number-website p,
-img {
-  margin-top: 10px;
 }
