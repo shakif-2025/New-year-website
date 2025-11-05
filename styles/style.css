@@ -163,6 +163,7 @@ span {
 /* Offer-year styles */
 
 .offer-year {
+  border: 2px solid red;
   margin-top: 120px;
   display: flex;
   justify-content: space-between;
@@ -211,4 +212,51 @@ span {
   font-weight: 400;
   margin-top: -43px;
   width: 300px;
+}
+
+/* holiday- sale styles */
+.holiday-sale {
+  text-align: center;
+  margin-top: 120px;
+
+  border: 2px solid red;
+}
+.holiday-sale-texts h4 {
+  color: rgba(7, 2, 17, 1);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday-sale-texts h3 {
+  /* font-family: Merriweather; */
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.holiday-sale-texts p {
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: -40px;
+  font-size: 20px;
+  font-weight: 500;
+  /* width: 1270px; */
+}
+
+.rectangle-2 {
+  position: relative;
+  top: 600px;
+
+  margin-bottom: 120px;
+}
+
+.gift-box-discount {
+  position: absolute;
+
+  top: -420px;
+}
+
+.gift-box-discount .discount {
+  position: absolute;
+  left: 1000px;
+  top: 95px;
 }
